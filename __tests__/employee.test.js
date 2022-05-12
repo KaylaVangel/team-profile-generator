@@ -1,9 +1,3 @@
-//classwork example: 
-// const checkIfEqual = require('../lib/random.js');
-
-// test('checks if 10 is equal to 10', () => {
-//     expect(checkIfEqual(10, 10)).toBe(true);
-//   });
 test('creates a new employee objext', () => {
     const employee = new Employee ();
     
@@ -56,3 +50,4 @@ test('creates new intern object', () => {
 })
 
 //when to use tob or to equal?//
+//need to seperate into own files//
