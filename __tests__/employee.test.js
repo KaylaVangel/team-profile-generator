@@ -11,7 +11,7 @@ test('creates a new employee objext', () => {
     expect(employee.email).toBe('kayla.vangel@comcast.net');
     expect(employee.getName()).toEqual(expect.stringContaining('kayla'));
     expect(employee.getId()).toEqual(expect.any(Number));
-    expect(employee.getEmail()).toEqual(expect.stringContaiing('kayla.vangel@comcast.net'));
+    expect(employee.getEmail()).toEqual(expect.stringContaining('kayla.vangel@comcast.net'));
     expect(employee.getRole()).toEqual(expect.stringContaining('employee'));
 });
 
